@@ -11,3 +11,4 @@ function sumar(){
 
     inputResultado.value=resultado;
 }
+
