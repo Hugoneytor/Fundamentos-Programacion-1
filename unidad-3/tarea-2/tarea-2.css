@@ -1,13 +1,57 @@
 body{
     background: gray;
-    margin: auto;
+   text-align: center;
 }
 
-form{
-    padding: 20px 20px 20px 20px;
-    background-color: red;
-    width: 600px;
+.calc{
+    width: 385px;
+    margin: auto;
+    background-color: brown;
+    padding: 0.5%;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.caja{
+    background-color:#e3e4e5;
+    width: 400px;
     margin: auto;
     border: 2px solid black;
     border-radius: 15px;
+
+}
+
+.padding{
+    margin: 20px 20px 20px 20px;
+    font-size: 18px;
+
+}
+input{
+    border: 2px solid blue;
+    border-radius: 6px;
+
+}
+
+#label{
+    font-size: 22px;
+}
+
+button{
+    font-size: 20px;
+    margin: 10px 10px 10px 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: darkmagenta;
+    color: white;
+
+}
+
+button:hover{
+    background-color: black;
+    color: red;
+}
+
+label{
+    color: red;
+   
 }

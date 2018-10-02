@@ -4,7 +4,7 @@ btnCalcular=addEventListener('click',sumar);
 var bntsumar = document.querySelector('#restar')
 btnCalcular=addEventListener('click',restar);
 
-var bntsumar = document.querySelector('multipli')
+var bntsumar = document.querySelector('#multipli')
 btnCalcular=addEventListener('click',multipli);
 
 var bntsumar = document.querySelector('#division')
