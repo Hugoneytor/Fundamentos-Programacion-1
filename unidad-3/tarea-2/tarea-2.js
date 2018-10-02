@@ -1,20 +1,22 @@
-var bntsumar = document.querySelector('#sumar')
-btnCalcular=addEventListener('click',sumar);
+var btnSumar = document.querySelector('#sumar');
+btnSumar.addEventListener('click', sumar);
 
-var bntsumar = document.querySelector('#restar')
-btnCalcular=addEventListener('click',restar);
-
-var bntsumar = document.querySelector('#multipli')
-btnCalcular=addEventListener('click',multipli);
-
-var bntsumar = document.querySelector('#division')
-btnCalcular=addEventListener('click',division);
-
-var bntsumar = document.querySelector('#residuo')
-btnCalcular=addEventListener('click',residuo);
+var btnRestar = document.querySelector('#restar');
+btnRestar.addEventListener('click', restar);
 
 
-function sumar(){
+var btnMultipli = document.querySelector('#multipli')
+btnMultipli.addEventListener('click',multipli);
+
+var btnDivision = document.querySelector('#division')
+btnDivision.addEventListener('click',division);
+
+var btnResiduo = document.querySelector('#residuo')
+btnResiduo.addEventListener('click',residuo);
+
+
+function sumar() {
+  
     var inputNumero1 = document.querySelector('#numero1');
 
     var inputNumero2 = document.querySelector('#numero2');
@@ -23,7 +25,7 @@ function sumar(){
 
     var inputResultado= document.querySelector('#resultado');
     
-    inputResultado.value=resultado
+    inputResultado.value=resultado;
 }
 
 
@@ -36,8 +38,9 @@ function restar(){
 
     var inputResultado= document.querySelector('#resultado');
     
-    inputResultado.value=resultado
+    inputResultado.value=resultado;
 }
+
 
 function multipli(){
     var inputNumero1 = document.querySelector('#numero1');
@@ -48,7 +51,7 @@ function multipli(){
 
     var inputResultado= document.querySelector('#resultado');
     
-    inputResultado.value=resultado
+    inputResultado.value=resultado;
 }
 
 function division(){
@@ -60,7 +63,7 @@ function division(){
 
     var inputResultado= document.querySelector('#resultado');
     
-    inputResultado.value=resultado
+    inputResultado.value=resultado;
 }
 
 function residuo(){
@@ -72,5 +75,5 @@ function residuo(){
 
     var inputResultado= document.querySelector('#resultado');
     
-    inputResultado.value=resultado
+    inputResultado.value=resultado;
 }
