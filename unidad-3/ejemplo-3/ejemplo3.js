@@ -4,9 +4,34 @@ var btnNumero = document.querySelector('#btnNumero');
 btnNumero.addEventListener('click', evalNumero);
 
 var opciones = document.querySelector('#opciones');
-opciones.addEventListener('change', evalOpcion);
+opciones.addEventListener('change', evalOpcionSwitch);
 
 var inputNumero = document.querySelector('#numero');
+
+function evalOpcionSwitch() {
+    var numero = Number(inputNumero.value);
+    var opcion = opciones.value;
+
+    switch(opcion) {
+        case 'mitad':
+            pResultado.textContent = 'La mitad es '
+            + (numero/2);
+            break;
+        case 'cuadrado':
+        pResultado.textContent = 'El cuadrado es ' + (numero * numero);
+            break;
+        case 'par':
+            if(numero % 2 ===0) {
+                pResultado.textContent = 'Es par ';
+            }
+            else {
+                pResultado.textContent = 'Es impar';
+            }
+            break;
+        default:
+        pResultado.textContent = 'Selecciona algoo '
+    }
+}
 
 function evalOpcion() {
     var numero = Number(inputNumero.value)
@@ -26,7 +51,7 @@ function evalOpcion() {
     }
 } 
      else {
-    pResultado.textContent = "Seleccione algo...";
+    pResultado.textContent = "Selecciona Una Opción";
 }
 
 }
