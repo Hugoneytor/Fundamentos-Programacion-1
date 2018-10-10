@@ -32,7 +32,7 @@ function evalOpcionSwitch() {
         pResultado.textContent = 'Selecciona algoo '
     }
 }
-
+..
 function evalOpcion() {
     var numero = Number(inputNumero.value)
     var opcion = opciones.value;
