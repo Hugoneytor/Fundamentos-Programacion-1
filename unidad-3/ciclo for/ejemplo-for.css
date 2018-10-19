@@ -1,0 +1,25 @@
+button{
+    font-size: 20px;
+}
+
+label,input{
+    font-size: 20px;
+}
+
+table,th,td{
+    border: 1px solid black;
+}
+
+body{
+    background-color: orange;
+  
+}
+
+form{
+    text-align: center;
+   
+}
+
+table{
+    margin: auto;
+}
