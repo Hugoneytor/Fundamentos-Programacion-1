@@ -34,10 +34,10 @@ function ejemplo6() {
         var x = Math.trunc((Math.random() * 501) + 1);
         var y = Math.trunc((Math.random() * 501) + 1);
         var r = Math.trunc((Math.random() * 50) + 1);
-        /* Aquí se Usa un break*/
+        /* Aquí se Usa un break
     if (x>250){
         break;
-    }
+    } */
         
     c.beginPath();
     c.fillStyle = 'rgba(0,255,0,0.5)';

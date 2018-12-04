@@ -1,12 +1,12 @@
-var pResultado = document.querySelector('#resultado');
-
 var btnNumero = document.querySelector('#btnNumero');
-btnNumero.addEventListener('click', evalNumero);
+btnNumero.addEventListener('click', evalNumero); 
 
 var opciones = document.querySelector('#opciones');
 opciones.addEventListener('change', evalOpcionSwitch);
 
 var inputNumero = document.querySelector('#numero');
+
+var pResultado = document.querySelector('#resultado');
 
 function evalOpcionSwitch() {
     var numero = Number(inputNumero.value);
@@ -32,7 +32,7 @@ function evalOpcionSwitch() {
         pResultado.textContent = 'Selecciona algoo '
     }
 }
-..
+
 function evalOpcion() {
     var numero = Number(inputNumero.value)
     var opcion = opciones.value;
